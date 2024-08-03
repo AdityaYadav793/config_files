@@ -23,6 +23,7 @@ return {
 			lspconfig.lua_ls.setup({})
 			lspconfig.clangd.setup({})
 
+			vim.keymap.set('n', 'rn', vim.lsp.buf.rename, { desc = 'Rename all references' })
 			vim.keymap.set('n', 'K', vim.lsp.buf.hover, { desc = 'Show hover info' })
 			vim.keymap.set('n', 'gD', vim.lsp.buf.declaration, { desc = 'Go to declaration' })
 			vim.keymap.set('n', 'gd', vim.lsp.buf.definition, { desc = 'Go to definition' })

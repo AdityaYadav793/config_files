@@ -14,7 +14,6 @@ vim.opt.tabstop = 4
 vim.opt.foldmethod='indent'
 
 vim.opt.clipboard = 'unnamedplus'
--- vim.cmd('set clipboard += unnamedplus')
 
 vim.g.mapleader = ' '
 
